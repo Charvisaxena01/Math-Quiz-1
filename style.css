@@ -1,0 +1,28 @@
+.body_background {
+    background-image: url("bgt4.jpg");
+    background-position: center;
+}
+
+.boxed {
+    border: 1px solid black;
+    border-width: 5px;
+    color: darkblue;
+    float: none;
+}
+
+#but {
+    background-color: pink;
+    color: red;
+    font-size: large;
+    width: 80x;
+    ;
+    height: 55px;
+    font-family: unset;
+    border-radius: 45%;
+    border-style: ridge;
+}
+
+h1 {
+    text-decoration-line: underline;
+    color: purple;
+}
