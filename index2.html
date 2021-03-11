@@ -4,6 +4,17 @@
     <title>
         Game- Math Quiz
     </title>
+    <link rel="stylesheet" href="style2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 </head>
 
@@ -11,17 +22,22 @@
     <h3 id="player_name1"></h3><span id="score1"> </span>
     <h3 id="player_name2"></h3><span id="score2"> </span>
     <center>
-        <h1> Math Quiz!</h1>
+        <h1> The Math Quiz!</h1>
         <br> <br>
         <h3 id="Question"> </h3>
         <h3 id="Answer"></h3>
 
-        <label> Send Your Number by entering it in the box </label>
+        <div id="output" class="col lg 6"></div>
         <br> <br>
-        <input id="1" placeholder="Enter the Number">
+        <h3 id="box1"> Number 1 </h3>
+        <input id="number1" type=" text" class="form-control" placeholder="Enter the Number">
         <br> <br>
-        <input id="1" placeholder="Enter the Number">
+        <h3 id="box2"> Number 2 </h3>
+        <input id="number2" class=" form-control" placeholder="Enter the Number">
+        <br> <br>
+        <button type="button" id="but2" class="btn btn-info" onclick="send()"> Send </button>
     </center>
+    <script src="main2.js"></script>
 </body>
 
 </html>
