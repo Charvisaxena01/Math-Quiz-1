@@ -1,0 +1,54 @@
+body {
+    background-image: url("bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+#number1 {
+    size: 45px;
+}
+
+#output {
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid violet;
+    padding: 10px;
+    float: none;
+    text-align: left;
+    size: 45px;
+    ;
+}
+
+#number1 {
+    border-radius: 80px;
+    height: 50px;
+    border-color: blue;
+    background-color: lightcyan;
+    width: 920px;
+    ;
+}
+
+#number2 {
+    border-radius: 80px;
+    height: 50px;
+    border-color: orangered;
+    background-color: yellow;
+    width: 920px;
+}
+
+#box1 {
+    font-size: 35px;
+    color: red;
+    text-decoration: underline;
+}
+
+#box2 {
+    font-size: 35px;
+    color: green;
+    text-decoration: underline;
+}
