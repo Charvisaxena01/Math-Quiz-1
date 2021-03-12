@@ -52,3 +52,29 @@ h1 {
     color: green;
     text-decoration: underline;
 }
+
+#player_name1 {
+    color: white;
+}
+
+#player_name2 {
+    color: white;
+}
+
+#score1 {
+    font-size: 25px;
+    color: white;
+}
+
+#score2 {
+    font-size: 25px;
+    color: white;
+}
+
+#question {
+    color: rgb(19, 88, 68);
+}
+
+#answer {
+    color: rgb(19, 88, 68);
+}
