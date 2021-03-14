@@ -19,8 +19,8 @@
 </head>
 
 <body onload="display()">
-    <h3 id="player_name1"></h3> <span id="score1">  </span>
-    <h3 id="player_name2"></h3> <span id="score2"> </span>
+    <label id="player_name1"></label> :<span id="score1">  </span> <br>
+    <label id="player_name2"></label> : <span id="score2"> </span>
     <center>
         <h1> The Math Quiz!</h1>
 
@@ -28,14 +28,14 @@
         <b><h3 id="answer"></h3></b>
 
         <div id="output" class="col lg 6"></div>
-        <br> <br>
-        <h3 id="box1"> Number 1 </h3>
-        <input id="number1" type=" text" class="form-control" placeholder="Enter the Number">
-        <br> <br>
-        <h3 id="box2"> Number 2 </h3>
-        <input id="number2" class=" form-control" placeholder="Enter the Number">
-        <br> <br>
-        <button type="button" id="but2" class="btn btn-info" onclick="send()"> Send </button>
+        <br>
+        <h2 id="box1"> Number 1 </h3>
+            <input id="number1" type=" text" class="form-control" placeholder="Enter the Number">
+            <br>
+            <h2 id="box2"> Number 2 </h3>
+                <input id="number2" class=" form-control" placeholder="Enter the Number">
+                <br>
+                <button type="button" id="but2" class="btn btn-info" onclick="send()"> Send </button>
     </center>
     <script src="main2.js"></script>
 </body>
